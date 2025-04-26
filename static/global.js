@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         output += `</ul>`;
 
         const topType = sortedResult[0][0];
-        const topIconPath = `assets/${topType}.gif`;
+        const topIconPath = `/static/assets/${topType}.gif`;
 
         output += `
         <div class="top-result">
