@@ -22,7 +22,7 @@ CORS(app)
 def home():
     return render_template('index.html')
 
-@app.route('/')
+@app.route('/main')
 def main_page():
     return render_template('main.html')
 
