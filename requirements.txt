@@ -4,3 +4,4 @@ scikit-learn
 pandas
 joblib
 gunicorn
+scikit-learn==1.5.2
