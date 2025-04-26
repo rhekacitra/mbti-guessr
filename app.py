@@ -20,11 +20,11 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return render_template('templates/index.html')
+    return render_template('index.html')
 
 @app.route('/')
 def main_page():
-    return render_template('templates/main.html')
+    return render_template('main.html')
 
 @app.route('/predict', methods=['POST'])
 def predict():
