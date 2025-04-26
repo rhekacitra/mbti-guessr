@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../static/styles.css">
+  <script src="../static/global.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Gaegu&family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+
+  <!-- Press Start 2P -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+
+  <title>MBTI Guessr</title>
+</head>
+
+<body class="page-2">
+    <div class="main-page">
+        <section class="mbti-section">
+            <div class="mbti-info">
+              <h1><span class="highlight">What</span> is MBTI?</h1>
+              <p>
+                The Myers-Briggs Type Indicator (MBTI) is a popular personality framework that categorizes people into 16 distinct personality types based on how they perceive the world and make decisions.
+              </p>
+          
+              <div class="mbti-stats">
+                <div>
+                  <h3>4 Dichotomies</h3>
+                  <p>MBTI is based on 4 pairs of opposite preferences.</p>
+                </div>
+                <div>
+                  <h3>16 Types</h3>
+                  <p>Each person has a unique 4-letter combination like INFJ or ESTP.</p>
+                </div>
+                <div>
+                  <h3>Global Popularity</h3>
+                  <p>One of the most well-known personality tools worldwide.</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="mbti-visual">
+                <h2>MBTI Dichotomies</h2>
+                <div class="mbti-pairs">
+                  <div>
+                    <p><span>I</span> Introversion </p>
+                    <p><span>S</span> Sensing</p>
+                    <p><span>T</span> Thinking</p>
+                    <p><span>J</span> Judging</p>
+                  </div>
+                  <div>
+                    <p><span>E</span> Extraversion</p>
+                    <p><span>N</span> Intuition</p>
+                    <p><span>F</span> Feeling</p>
+                    <p><span>P</span> Perceiving</p>
+                  </div>
+                </div>
+              </div>
+              
+        </section>
+          
+        <section class="mbti-icons">
+          <h1>MBTI <span class="highlight">Types</span></h1>
+          <div class="icon-grid">
+
+            <div class="icon-card">
+              <img src="../assets/Intj.gif" alt="INTJ">
+              <p>INTJ</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Intp.gif" alt="INTP">
+              <p>INTP</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Entj.gif" alt="ENTJ">
+              <p>ENTJ</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Entp.gif" alt="ENTP">
+              <p>ENTP</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Istp.gif" alt="ISTP">
+              <p>ISTP</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Isfp.gif" alt="ISFP">
+              <p>ISFP</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Estp.gif" alt="ESTP">
+              <p>ESTP</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Esfp.gif" alt="ESFP">
+              <p>ESFP</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Infj.gif" alt="INFJ">
+              <p>INFJ</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Infp.gif" alt="INFP">
+              <p>INFP</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Enfj.gif" alt="ENFJ">
+              <p>ENFJ</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Enfp.gif" alt="ENFP">
+              <p>ENFP</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Istj.gif" alt="ISTJ">
+              <p>ISTJ</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Isfj.gif" alt="ISFJ">
+              <p>ISFJ</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Estj.gif" alt="ESTJ">
+              <p>ESTJ</p>
+            </div>
+            <div class="icon-card">
+              <img src="../assets/Esfj.gif" alt="ESFJ">
+              <p>ESFJ</p>
+            </div>
+          </div>
+          
+        </section>
+        
+
+        <section class="quote-section">
+            <p class="quote-mark">“</p>
+            <blockquote>
+                "The MBTI assessment is one of the most widely used personality tools in the world, helping people gain insights about themselves and how they interact with others."
+            </blockquote>
+            <p class="quote-author"> — The Myers & Briggs Foundation (<a href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/" target="_blank">2024</a>)</p>
+
+            
+        </section>
+        
+        <section id="how-it-works">
+            <h1><span class="highlight">How</span> It Works</h1>
+            <ol>
+                <li>Type anything - it can be a thought, a rant, or something about yourself.</li>
+                <li>Click predict!</li>
+                <p>Example: "I like organizing my schedule, making to-do lists, and checking things off."</p>
+            </ol>
+            <br>
+            <br>
+            <form id="mbti-form">
+              <label for="text-input">Type something:</label><br>
+              <textarea id="text-input" name="text" rows="8" cols="100" required></textarea><br><br>
+              <button class="button" type="submit"><span>Predict</span></button>
+            </form>
+            
+            <div id="result"></div>  
+        </section>
+    </div>
+
+
+
+  <footer>
+    <p>Made by Rheka Narwastu</p>
+    <p><a href="">Behind the Scenes</a> | <a href="https://github.com/rhekacitra" target="_blank">GitHub</a></p>
+  </footer>
+
+</body>
+</html>
